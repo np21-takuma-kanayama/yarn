@@ -1,4 +1,4 @@
-FROM apline
+FROM alpine
 
 RUN apk --no-cache add yarn
 

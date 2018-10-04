@@ -1,6 +1,6 @@
-FROM node:alpine
+FROM apline
 
-RUN apk --no-cache add make gcc g++ libc-dev libpng-dev bash
+RUN apk --no-cache add yarn
 
 WORKDIR /app
 ENTRYPOINT ["yarn"]

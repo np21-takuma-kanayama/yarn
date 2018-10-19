@@ -1,6 +1,8 @@
 FROM alpine
 
-RUN apk --no-cache add yarn
+RUN apk --no-cache add \
+    npm \
+    yarn
 
 WORKDIR /app
 ENTRYPOINT ["yarn"]

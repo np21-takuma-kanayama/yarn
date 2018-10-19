@@ -1,7 +1,8 @@
 FROM alpine
 
 RUN apk --no-cache add \
-    npm \
+    nodejs \
+    nodejs-npm \
     yarn
 
 WORKDIR /app
